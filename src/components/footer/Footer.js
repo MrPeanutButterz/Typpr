@@ -1,5 +1,13 @@
+import "./Footer.css"
+
 export default function Footer() {
   return <>
-    <footer>footer</footer>
+      <footer className="footer-outer">
+        <div className="footer-inner">
+          <p>Github</p>
+          <p>Privacy</p>
+          <p>Contract</p>
+        </div>
+      </footer>
   </>
 };

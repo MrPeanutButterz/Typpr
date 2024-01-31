@@ -1,0 +1,13 @@
+nav {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 50px 0 50px;
+    max-width: 1500px;
+}
+
+.logo {
+    width: 190px;
+}
+
