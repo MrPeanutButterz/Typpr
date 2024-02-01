@@ -11,3 +11,18 @@ nav {
     width: 190px;
 }
 
+.navbar-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-right:hover {
+    cursor: pointer;
+}
+
+ion-icon {
+    font-size: 40px;
+    color: whitesmoke;
+}

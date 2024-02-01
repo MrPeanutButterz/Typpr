@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="footer-inner">
           <p>Github</p>
           <p>Privacy</p>
-          <p>Contract</p>
+          <p>Contact</p>
         </div>
       </footer>
   </>
