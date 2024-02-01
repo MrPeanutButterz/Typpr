@@ -1,0 +1,10 @@
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text, .quote-person {
+    font-size: 25px;
+}

@@ -1,0 +1,5 @@
+h2 {
+    font-family: var(--text-font);
+    font-weight: 400;
+    letter-spacing: 1px;
+}
