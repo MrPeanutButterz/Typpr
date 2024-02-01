@@ -1,13 +1,41 @@
-body {
-    background-color: #727A70;
-    color: #FFFFFF;
+:root {
+    --logo-font: 'Monofett', monospace;
+    --text-font: 'Nunito Sans', sans-serif;
+
+    --background-color: #727A70;
+    --text-color: #E1E1E1;
 }
 
-main {
-    height: 100vh;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--text-font);
+}
+
+#root {
     width: 100vw;
+    height: 100vh;
+    padding: 30px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+
+main {
+    max-width: 1500px;
+}
+
+a,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: var(--text-color);
 }

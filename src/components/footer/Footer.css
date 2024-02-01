@@ -1,13 +1,5 @@
-.footer-outer {
-    width: inherit;
+footer {
     display: flex;
-    justify-content: flex-end;
-    max-width: 1500px;
-    padding: 0 50px 40px 0;
-}
-
-.footer-inner {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-direction: row;
+    gap: 10px;
 }
