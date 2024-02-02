@@ -1,7 +1,7 @@
-import "./Test.css"
+import "./SpeedTest.css"
 import {useEffect, useState} from "react";
 
-export default function Test() {
+export default function SpeedTest() {
 
   const textToType = "As fingers danced across the keys, a symphony of clicks echoed in the quiet room. Words flowed like a river, creating worlds and unraveling mysteries. Each keystroke was a brushstroke, painting thoughts onto the digital canvas. In this silent dance, a story emerged, born from the rhythmic tapping of the keyboard."
 
@@ -243,7 +243,7 @@ export default function Test() {
 
   function timer(time) {
 
-    //handles timing of the test en calculates result
+    //handles timing of the speedtest en calculates result
 
     if (!test.hasStarted) {
 
@@ -266,7 +266,7 @@ export default function Test() {
         acc: acc,
       })
 
-      //reset test
+      //reset speedtest
       setTest({...test, hasStarted: true, completed: true,})
 
     }

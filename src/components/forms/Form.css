@@ -1,0 +1,48 @@
+form {
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+form > h1 {
+    padding-bottom: 50px;
+}
+
+form > label,
+.input-field {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    color: var(--text-color);
+    outline: none;
+}
+
+.input-field:-webkit-autofill,
+.input-field:-webkit-autofill:hover,
+.input-field:-webkit-autofill:focus,
+.input-field:-webkit-autofill:active {
+    background-color: transparent;
+    color: var(--text-color);
+    outline: none;
+    -webkit-box-shadow: 0 0 0 30px var(--background-color) inset !important;
+    -webkit-text-fill-color: var(--text-color) !important;
+}
+
+.form-button {
+    width: 100%;
+    height: 30px;
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+}
+
+.form-button:hover {
+    cursor: pointer;
+}

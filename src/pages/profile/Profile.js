@@ -1,5 +1,5 @@
-import Login from "../../components/form/Login";
-import Register from "../../components/form/Register";
+import Login from "../../components/forms/Login";
+import Register from "../../components/forms/Register";
 
 export default function Profile() {
 

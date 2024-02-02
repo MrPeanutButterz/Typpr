@@ -3,7 +3,6 @@ import {NavLink} from "react-router-dom";
 import logo from "../../assets/Logo.svg"
 import infoIcon from "../../assets/Icons/Information-circle.svg"
 import personIcon from "../../assets/Icons/Person.png"
-import settingsIcon from "../../assets/Icons/Settings.png"
 
 export default function Navigation() {
 
@@ -16,7 +15,6 @@ export default function Navigation() {
       <div>
         <NavLink to="/"><img src={logo} className="logo" alt="logo"/><p className="icon-underscore">Start test</p></NavLink>
         {icon("/about", infoIcon)}
-        {icon("/settings", settingsIcon)}
         {icon("/profile", personIcon)}
       </div>
     </nav>
