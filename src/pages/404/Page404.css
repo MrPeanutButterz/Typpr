@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.quote-container > h1 > span {
+    color: var(--error-color);
+}
+
 .quote-text, .quote-person {
     font-size: 25px;
 }

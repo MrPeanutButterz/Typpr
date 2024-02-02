@@ -2,8 +2,11 @@
     --logo-font: 'Monofett', monospace;
     --text-font: 'Nunito Sans', sans-serif;
 
-    --background-color: #727A70;
+    --background-color: #191717;
     --text-color: #E1E1E1;
+
+    --primary-color: #08D975;
+    --error-color: #AE3434;
 }
 
 * {

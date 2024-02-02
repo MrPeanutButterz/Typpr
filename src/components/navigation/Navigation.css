@@ -4,36 +4,35 @@ nav {
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-
-}
-
-.nav-right {
-    display: flex;
-    flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-end;
 
-    font-weight: 300;
 }
 
-.nav-left, .nav-right {
-    font-weight: 400;
-}
-
-.user-container {
+nav > div {
+    height: 50px;
     display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-
-.user {
-    display: flex;
-    flex-direction: column;
     align-items: flex-end;
+    gap: 5px;
 }
 
-.picture {
-    height: 75px;
-    border-radius: 5px;
+.logo:hover + .icon-underscore {
+    display: block;
+    scale: 1.02;
+}
+
+.icon {
+    height: 22px;
+    border-radius: 2px;
+}
+
+.icon:hover + .icon-underscore {
+    display: block;
+    scale: 1.2;
+}
+
+.icon-underscore {
+    display: none;
+    height: 2px;
+    border-radius: 50%;
+    background-color: var(--primary-color)
 }

@@ -1,37 +1,23 @@
 import "./Navigation.css"
-import Logo from "../logo/logo";
 import {NavLink} from "react-router-dom";
 import logo from "../../assets/Logo.svg"
-import profilePic from "../../assets/ProfilePicture.png"
+import infoIcon from "../../assets/Icons/Information-circle.svg"
+import personIcon from "../../assets/Icons/Person.png"
+import settingsIcon from "../../assets/Icons/Settings.png"
 
 export default function Navigation() {
 
-  const user = true
-
-  function userInfoBar() {
-    return <>
-      <NavLink to="/profile">
-
-        <div className="user-container">
-          <div className="user">
-            <h1>John Doe</h1>
-            <p>JohnDoe@email.com</p>
-            <p>level : 123</p>
-          </div>
-          <img className="picture" src={profilePic} alt="Profile picture"/>
-        </div>
-      </NavLink>
-    </>
+  function icon(path, icon) {
+    return <NavLink to={path}><img src={icon} className="icon" alt="icon"/><div className="icon-underscore"></div></NavLink>
   }
 
   return <>
     <nav>
-      <div className="nav-left">
-        <NavLink to="/"><img src={logo} alt=""/></NavLink>
-        <NavLink to="/about"><p>about</p></NavLink>
-      </div>
-      <div className="nav-right">
-        {user ? userInfoBar() : <p>login</p>}
+      <div>
+        <NavLink to="/"><img src={logo} className="logo" alt="logo"/><p className="icon-underscore">Start test</p></NavLink>
+        {icon("/about", infoIcon)}
+        {icon("/settings", settingsIcon)}
+        {icon("/profile", personIcon)}
       </div>
     </nav>
   </>
