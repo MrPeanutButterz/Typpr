@@ -4,6 +4,7 @@ export default function Login() {
 
   function handleSubmit(e) {
     e.preventDefault()
+    console.log("Shit just happend!")
   }
 
   return <>
@@ -16,6 +17,7 @@ export default function Login() {
           name="email"
           className="input-field"
           placeholder="email"
+          autoComplete="current-email"
         />
       </label>
       <label htmlFor="password">
@@ -25,6 +27,7 @@ export default function Login() {
           name="password"
           className="input-field"
           placeholder="password"
+          autoComplete="current-password"
         />
       </label>
 

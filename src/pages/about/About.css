@@ -1,0 +1,23 @@
+.about-container {
+    width: 100%;
+    max-width: 1500px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.text-container {
+    padding-right: 50px;
+}
+
+.about-text {
+    padding-bottom: 40px;
+}
+
+.about-text > h1 {
+    color: var(--primary-color);
+}
+
+.img-container > img {
+    max-width: 450px;
+}
