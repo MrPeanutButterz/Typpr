@@ -34,7 +34,7 @@ export default function Login() {
       <button
         type="submit"
         className="form-button"
-      >Login
+      >Continue
       </button>
     </form>
   </>
