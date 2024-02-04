@@ -363,9 +363,5 @@ export default function SpeedTest() {
       </section>);
   }
 
-  function testResultsX() {
-    return <h2>You completed the test!</h2>;
-  }
-
-  return <> {test.completed ? theTest() : TestResults(data)} </>
+  return <> {!test.completed ? theTest() : TestResults(data)} </>
 };

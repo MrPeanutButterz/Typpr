@@ -1,6 +1,14 @@
+#chart {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
 #chart-area {
-    height: 300px;
-    width: 910px;
+    height: 100%;
+    width: 902px;
     border-left: 2px solid var(--text-color);
     border-top: 2px solid var(--text-color);
     transform: rotateX(180deg);
@@ -9,4 +17,53 @@
 
 #chart-area > rect {
     fill: var(--primary-color);
+}
+
+#y-axis {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+#y-axis > h3 {
+    padding-left: 20px;
+}
+
+#y-scale {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#x-axis {
+    padding-left: 90px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+}
+
+#y-axis > h3 {
+    /*
+    transform: rotate(-90deg);
+    */
+}
+
+#x-scale {
+    width: 902px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+#totals {
+    height: 100%;
+    width: 150px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
 }
