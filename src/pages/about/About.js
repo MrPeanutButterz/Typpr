@@ -17,7 +17,7 @@ export default function About() {
             progress.</p>
         </div>
         <div className="about-text">
-          <h1>What We Offer</h1>
+          <h1>What We Offer</h1><br/>
           <h2>Typing Test and Performance Measurement:</h2>
           <p>Discover your typing proficiency with our accurate typing test. Upon completion, you'll instantly receive
             an overview of your performance in the form of an informative bar chart. It's the perfect way to see where you

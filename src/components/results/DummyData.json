@@ -1,0 +1,421 @@
+[{
+  "second": 1,
+  "wpm": 47,
+  "acc": 91,
+  "correct": 3,
+  "incorrect": 1,
+  "extra": 0
+}, {
+  "second": 2,
+  "wpm": 48,
+  "acc": 82,
+  "correct": 1,
+  "incorrect": 1,
+  "extra": 1
+}, {
+  "second": 3,
+  "wpm": 52,
+  "acc": 81,
+  "correct": 1,
+  "incorrect": 0,
+  "extra": 1
+}, {
+  "second": 4,
+  "wpm": 47,
+  "acc": 93,
+  "correct": 1,
+  "incorrect": 2,
+  "extra": 0
+}, {
+  "second": 5,
+  "wpm": 45,
+  "acc": 89,
+  "correct": 3,
+  "incorrect": 0,
+  "extra": 1
+}, {
+  "second": 6,
+  "wpm": 51,
+  "acc": 100,
+  "correct": 3,
+  "incorrect": 2,
+  "extra": 0
+}, {
+  "second": 7,
+  "wpm": 53,
+  "acc": 87,
+  "correct": 3,
+  "incorrect": 0,
+  "extra": 1
+}, {
+  "second": 8,
+  "wpm": 47,
+  "acc": 90,
+  "correct": 3,
+  "incorrect": 0,
+  "extra": 1
+}, {
+  "second": 9,
+  "wpm": 50,
+  "acc": 91,
+  "correct": 2,
+  "incorrect": 1,
+  "extra": 1
+}, {
+  "second": 10,
+  "wpm": 53,
+  "acc": 98,
+  "correct": 1,
+  "incorrect": 0,
+  "extra": 1
+}, {
+  "second": 11,
+  "wpm": 43,
+  "acc": 88,
+  "correct": 2,
+  "incorrect": 1,
+  "extra": 1
+}, {
+  "second": 12,
+  "wpm": 55,
+  "acc": 88,
+  "correct": 2,
+  "incorrect": 0,
+  "extra": 0
+}, {
+  "second": 13,
+  "wpm": 40,
+  "acc": 99,
+  "correct": 3,
+  "incorrect": 1,
+  "extra": 1
+}, {
+  "second": 14,
+  "wpm": 44,
+  "acc": 99,
+  "correct": 1,
+  "incorrect": 0,
+  "extra": 0
+}, {
+  "second": 15,
+  "wpm": 46,
+  "acc": 95,
+  "correct": 3,
+  "incorrect": 0,
+  "extra": 0
+}, {
+  "second": 16,
+  "wpm": 40,
+  "acc": 80,
+  "correct": 3,
+  "incorrect": 1,
+  "extra": 1
+}, {
+  "second": 17,
+  "wpm": 49,
+  "acc": 83,
+  "correct": 1,
+  "incorrect": 1,
+  "extra": 1
+}, {
+  "second": 18,
+  "wpm": 49,
+  "acc": 99,
+  "correct": 3,
+  "incorrect": 0,
+  "extra": 0
+}, {
+  "second": 19,
+  "wpm": 46,
+  "acc": 81,
+  "correct": 1,
+  "incorrect": 1,
+  "extra": 0
+}, {
+  "second": 20,
+  "wpm": 45,
+  "acc": 91,
+  "correct": 2,
+  "incorrect": 1,
+  "extra": 1
+}, {
+  "second": 21,
+  "wpm": 55,
+  "acc": 82,
+  "correct": 2,
+  "incorrect": 2,
+  "extra": 1
+}, {
+  "second": 22,
+  "wpm": 51,
+  "acc": 99,
+  "correct": 2,
+  "incorrect": 1,
+  "extra": 1
+}, {
+  "second": 23,
+  "wpm": 53,
+  "acc": 96,
+  "correct": 3,
+  "incorrect": 2,
+  "extra": 0
+}, {
+  "second": 24,
+  "wpm": 48,
+  "acc": 91,
+  "correct": 2,
+  "incorrect": 0,
+  "extra": 1
+}, {
+  "second": 25,
+  "wpm": 46,
+  "acc": 92,
+  "correct": 1,
+  "incorrect": 0,
+  "extra": 0
+}, {
+  "second": 26,
+  "wpm": 47,
+  "acc": 98,
+  "correct": 1,
+  "incorrect": 1,
+  "extra": 1
+}, {
+  "second": 27,
+  "wpm": 40,
+  "acc": 95,
+  "correct": 2,
+  "incorrect": 2,
+  "extra": 1
+}, {
+  "second": 28,
+  "wpm": 47,
+  "acc": 81,
+  "correct": 2,
+  "incorrect": 0,
+  "extra": 1
+}, {
+  "second": 29,
+  "wpm": 54,
+  "acc": 94,
+  "correct": 3,
+  "incorrect": 0,
+  "extra": 0
+}, {
+  "second": 30,
+  "wpm": 42,
+  "acc": 97,
+  "correct": 1,
+  "incorrect": 0,
+  "extra": 1
+}, {
+  "second": 31,
+  "wpm": 47,
+  "acc": 96,
+  "correct": 1,
+  "incorrect": 0,
+  "extra": 1
+}, {
+  "second": 32,
+  "wpm": 51,
+  "acc": 83,
+  "correct": 1,
+  "incorrect": 1,
+  "extra": 1
+}, {
+  "second": 33,
+  "wpm": 51,
+  "acc": 86,
+  "correct": 3,
+  "incorrect": 1,
+  "extra": 1
+}, {
+  "second": 34,
+  "wpm": 52,
+  "acc": 82,
+  "correct": 3,
+  "incorrect": 0,
+  "extra": 1
+}, {
+  "second": 35,
+  "wpm": 44,
+  "acc": 95,
+  "correct": 3,
+  "incorrect": 0,
+  "extra": 0
+}, {
+  "second": 36,
+  "wpm": 50,
+  "acc": 80,
+  "correct": 2,
+  "incorrect": 2,
+  "extra": 1
+}, {
+  "second": 37,
+  "wpm": 49,
+  "acc": 92,
+  "correct": 2,
+  "incorrect": 1,
+  "extra": 0
+}, {
+  "second": 38,
+  "wpm": 43,
+  "acc": 98,
+  "correct": 2,
+  "incorrect": 1,
+  "extra": 0
+}, {
+  "second": 39,
+  "wpm": 14,
+  "acc": 88,
+  "correct": 2,
+  "incorrect": 0,
+  "extra": 0
+}, {
+  "second": 40,
+  "wpm": 50,
+  "acc": 88,
+  "correct": 2,
+  "incorrect": 0,
+  "extra": 1
+}, {
+  "second": 41,
+  "wpm": 53,
+  "acc": 89,
+  "correct": 2,
+  "incorrect": 2,
+  "extra": 0
+}, {
+  "second": 42,
+  "wpm": 51,
+  "acc": 100,
+  "correct": 3,
+  "incorrect": 1,
+  "extra": 0
+}, {
+  "second": 43,
+  "wpm": 47,
+  "acc": 85,
+  "correct": 1,
+  "incorrect": 1,
+  "extra": 1
+}, {
+  "second": 44,
+  "wpm": 50,
+  "acc": 83,
+  "correct": 3,
+  "incorrect": 2,
+  "extra": 1
+}, {
+  "second": 45,
+  "wpm": 55,
+  "acc": 89,
+  "correct": 3,
+  "incorrect": 1,
+  "extra": 0
+}, {
+  "second": 46,
+  "wpm": 46,
+  "acc": 100,
+  "correct": 1,
+  "incorrect": 1,
+  "extra": 0
+}, {
+  "second": 47,
+  "wpm": 40,
+  "acc": 99,
+  "correct": 1,
+  "incorrect": 0,
+  "extra": 1
+}, {
+  "second": 48,
+  "wpm": 55,
+  "acc": 92,
+  "correct": 1,
+  "incorrect": 0,
+  "extra": 0
+}, {
+  "second": 49,
+  "wpm": 48,
+  "acc": 98,
+  "correct": 2,
+  "incorrect": 2,
+  "extra": 0
+}, {
+  "second": 50,
+  "wpm": 55,
+  "acc": 96,
+  "correct": 1,
+  "incorrect": 0,
+  "extra": 1
+}, {
+  "second": 51,
+  "wpm": 53,
+  "acc": 97,
+  "correct": 1,
+  "incorrect": 1,
+  "extra": 1
+}, {
+  "second": 52,
+  "wpm": 48,
+  "acc": 86,
+  "correct": 3,
+  "incorrect": 0,
+  "extra": 0
+}, {
+  "second": 53,
+  "wpm": 46,
+  "acc": 100,
+  "correct": 3,
+  "incorrect": 2,
+  "extra": 0
+}, {
+  "second": 54,
+  "wpm": 44,
+  "acc": 86,
+  "correct": 3,
+  "incorrect": 1,
+  "extra": 0
+}, {
+  "second": 55,
+  "wpm": 42,
+  "acc": 98,
+  "correct": 1,
+  "incorrect": 1,
+  "extra": 1
+}, {
+  "second": 56,
+  "wpm": 47,
+  "acc": 83,
+  "correct": 1,
+  "incorrect": 2,
+  "extra": 0
+}, {
+  "second": 57,
+  "wpm": 42,
+  "acc": 89,
+  "correct": 3,
+  "incorrect": 1,
+  "extra": 1
+}, {
+  "second": 58,
+  "wpm": 47,
+  "acc": 94,
+  "correct": 3,
+  "incorrect": 0,
+  "extra": 0
+}, {
+  "second": 59,
+  "wpm": 40,
+  "acc": 92,
+  "correct": 1,
+  "incorrect": 1,
+  "extra": 1
+}, {
+  "second": 60,
+  "wpm": 51,
+  "acc": 97,
+  "correct": 2,
+  "incorrect": 1,
+  "extra": 0
+}]

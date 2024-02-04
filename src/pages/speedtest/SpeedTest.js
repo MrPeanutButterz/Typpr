@@ -1,5 +1,8 @@
 import "./SpeedTest.css"
 import {useEffect, useState} from "react";
+import TestResults from "../../components/results/TestResults"
+import data from "../../components/results/DummyData.json"
+
 
 export default function SpeedTest() {
 
@@ -360,9 +363,9 @@ export default function SpeedTest() {
       </section>);
   }
 
-  function testResults() {
+  function testResultsX() {
     return <h2>You completed the test!</h2>;
   }
 
-  return <> {!test.completed ? theTest() : testResults()} </>
+  return <> {test.completed ? theTest() : TestResults(data)} </>
 };

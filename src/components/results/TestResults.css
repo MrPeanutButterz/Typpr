@@ -1,0 +1,12 @@
+#chart-area {
+    height: 300px;
+    width: 910px;
+    border-left: 2px solid var(--text-color);
+    border-top: 2px solid var(--text-color);
+    transform: rotateX(180deg);
+    padding-left: 1px;
+}
+
+#chart-area > rect {
+    fill: var(--primary-color);
+}
