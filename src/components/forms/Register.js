@@ -1,20 +1,43 @@
+import {useState} from "react";
+
 export default function Register() {
+
+  const [newUser, setNewUser] = useState({
+    name: "",
+    email: "",
+    password: "",
+  })
+
 
   function handleSubmit(e) {
     e.preventDefault()
-    console.log("Shit just happend!")
+    console.log(newUser.name + " : " + newUser.email + " : " + newUser.password)
   }
 
   return <>
     <form onSubmit={handleSubmit}>
       <h1>Register</h1>
+      <label htmlFor="name">
+        <input
+          type="text"
+          id="name-field"
+          name="name"
+          value={newUser.name ?? ""}
+          onChange={e => setNewUser({...newUser, name: e.target.value})}
+          className="input-field"
+          placeholder="Name"
+          autoComplete="name"
+        />
+      </label>
       <label htmlFor="email">
         <input
           type="text"
-          id="email-field"
+          id="email"
           name="email"
+          value={newUser.email ?? ""}
+          onChange={e => setNewUser({...newUser, email: e.target.value})}
           className="input-field"
-          placeholder="email"
+          placeholder="Email"
           autoComplete="current-email"
         />
       </label>
@@ -23,20 +46,11 @@ export default function Register() {
           type="password"
           id="password-field"
           name="password"
+          value={newUser.password ?? ""}
+          onChange={e => setNewUser({...newUser, password: e.target.value})}
           className="input-field"
-          placeholder="new password"
+          placeholder="Password"
           autoComplete="current-password"
-        />
-      </label>
-
-      <label htmlFor="password">
-        <input
-          type="password"
-          id="repeat-password-field"
-          name="password"
-          className="input-field"
-          placeholder="repeat password"
-          autoComplete="repeat-password"
         />
       </label>
 

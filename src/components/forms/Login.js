@@ -1,10 +1,18 @@
 import "./Form.css"
+import {useState} from "react";
 
 export default function Login() {
 
+  const [user, setUser] = useState({
+    email: "",
+    password: "",
+  })
+
+
   function handleSubmit(e) {
     e.preventDefault()
-    console.log("Shit just happend!")
+    console.log(user.email + " : " + user.password)
+
   }
 
   return <>
@@ -13,20 +21,24 @@ export default function Login() {
       <label htmlFor="email">
         <input
           type="text"
-          id="email-field"
+          id="email"
           name="email"
+          value={user.email ?? ""}
+          onChange={e => setUser({...user, email: e.target.value})}
           className="input-field"
-          placeholder="email"
+          placeholder="Email"
           autoComplete="current-email"
         />
       </label>
       <label htmlFor="password">
         <input
           type="password"
-          id="password-field"
+          id="password"
           name="password"
+          value={user.password ?? ""}
+          onChange={e => setUser({...user, password: e.target.value})}
           className="input-field"
-          placeholder="password"
+          placeholder="Password"
           autoComplete="current-password"
         />
       </label>

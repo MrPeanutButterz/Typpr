@@ -1,3 +1,7 @@
+#chart-container {
+    animation: fadeIn ease-in 1s;
+}
+
 #chart {
     height: 200px;
     display: flex;

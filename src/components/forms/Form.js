@@ -6,7 +6,7 @@ export default function Form() {
 
   const [knownUser, setKnownUser] = useState(true)
 
-  function switchButton(text) {
+  function switchContext(text) {
     return <>
       <button
         type="button"
@@ -19,6 +19,6 @@ export default function Form() {
 
   return <>
     {knownUser ? Login() : Register()}
-    {knownUser ? switchButton("Create account") : switchButton("Login here")}
+    {knownUser ? switchContext("Create account") : switchContext("Login here")}
   </>
 };
