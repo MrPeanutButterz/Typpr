@@ -22,3 +22,15 @@
 .img-container > img {
     max-width: 450px;
 }
+
+@media only screen and (max-width: 1000px) {
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .img-container > img {
+        max-width: 200px;
+    }
+
+}

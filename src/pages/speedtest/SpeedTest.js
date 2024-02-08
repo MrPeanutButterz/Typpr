@@ -275,20 +275,6 @@ export default function SpeedTest() {
     }
   }
 
-  function tips() {
-    let tip
-    if (text.onScreenGhost.length === 1) {
-      tip = "enter"
-    } else if (text.onScreenGhost[0] === " ") {
-      tip = "space"
-    } else {
-      tip = text.onScreenGhost[0]
-    }
-    return <>
-      <p id="tips">Next: {tip}</p>
-    </>
-  }
-
   function handleUserInput(e) {
 
     // Handles user input based on the key pressed
@@ -356,9 +342,6 @@ export default function SpeedTest() {
               timer(e.timeStamp)
             }}
           ></textarea>
-          <div className="tip-container">
-            {tips()}
-          </div>
         </div>
       </section>);
   }

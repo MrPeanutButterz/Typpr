@@ -1,7 +1,7 @@
 .text-area-container {
     width: 100%;
     font-family: monospace;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .text-field {
@@ -76,6 +76,12 @@
 
 @media only screen and (max-width: 600px) {
     .text-area-container {
-        font-size: 26px;
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .text-area-container {
+        font-size: 20px;
     }
 }
