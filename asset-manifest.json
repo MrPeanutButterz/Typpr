@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Typpr/static/css/main.c0a509db.css",
-    "main.js": "/Typpr/static/js/main.8eb700b0.js",
+    "main.js": "/Typpr/static/js/main.e2865bf3.js",
     "static/js/787.eebbaf2a.chunk.js": "/Typpr/static/js/787.eebbaf2a.chunk.js",
     "static/media/Screenshot Main Test.png": "/Typpr/static/media/Screenshot Main Test.e1e490978847161bb496.png",
     "static/media/Screenshot Main Results.png": "/Typpr/static/media/Screenshot Main Results.4dd0b580fe576b3421a1.png",
@@ -9,11 +9,11 @@
     "index.html": "/Typpr/index.html",
     "static/media/Information-circle.svg": "/Typpr/static/media/Information-circle.21961ca481aa28e85f56650a9cb096d7.svg",
     "main.c0a509db.css.map": "/Typpr/static/css/main.c0a509db.css.map",
-    "main.8eb700b0.js.map": "/Typpr/static/js/main.8eb700b0.js.map",
+    "main.e2865bf3.js.map": "/Typpr/static/js/main.e2865bf3.js.map",
     "787.eebbaf2a.chunk.js.map": "/Typpr/static/js/787.eebbaf2a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0a509db.css",
-    "static/js/main.8eb700b0.js"
+    "static/js/main.e2865bf3.js"
   ]
 }
