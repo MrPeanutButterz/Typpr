@@ -20,7 +20,7 @@ export default function Register() {
       <label htmlFor="name">
         <input
           type="text"
-          id="name-field"
+          id="name"
           name="name"
           value={newUser.name ?? ""}
           onChange={e => setNewUser({...newUser, name: e.target.value})}
@@ -44,7 +44,7 @@ export default function Register() {
       <label htmlFor="password">
         <input
           type="password"
-          id="password-field"
+          id="password"
           name="password"
           value={newUser.password ?? ""}
           onChange={e => setNewUser({...newUser, password: e.target.value})}
