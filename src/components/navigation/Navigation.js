@@ -13,7 +13,7 @@ export default function Navigation() {
   return <>
     <nav>
       <div>
-        <NavLink to="/"><img src={logo} className="logo" alt="logo"/><p className="icon-underscore">Start test</p></NavLink>
+        <NavLink to="/Typpr"><img src={logo} className="logo" alt="logo"/><p className="icon-underscore">Start test</p></NavLink>
         {icon("/about", infoIcon)}
         {icon("/profile", personIcon)}
       </div>
