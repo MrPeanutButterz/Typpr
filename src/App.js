@@ -13,7 +13,7 @@ export default function App() {
     <Navigation/>
     <main>
       <Routes>
-        <Route exact path="/speedtest" element={<SpeedTest/>}></Route>
+        <Route exact path="/" element={<SpeedTest/>}></Route>
         <Route path="about" element={<About/>}></Route>
         <Route path="*" element={<Page404/>}></Route>
       </Routes>
